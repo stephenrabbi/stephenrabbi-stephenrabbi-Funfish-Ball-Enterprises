@@ -1,0 +1,665 @@
+/*cutom style sheet*/
+
+
+/* Typography */
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #066306;
+    text-transform: uppercase;
+    margin-bottom: 50px; 
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color:#066306;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+
+h5 {
+   font-family: 'Oswald', sans-serif; 
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Spacing */
+
+.gap100 {
+    padding: 70px 25px;
+}
+
+.lttl {
+    margin-top: -50px;
+    padding-bottom: 20px;
+}
+
+
+/*Navbar Decoration*/
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.trn{
+    
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0));
+    z-index: 99;
+}
+
+.mynav{
+    
+    background-color: #fff !important;   
+}
+
+
+    .navbar-brand {
+    margin-left: 100px;
+    margin-top: -5px;
+}
+
+.trn a {
+    margin-right: 30px;
+    color:#fff !important;
+    border-bottom: 2px solid transparent;
+}
+
+.trn a:hover {
+    border-bottom: 2px solid #fefe23;
+}
+
+
+.mynav a {
+    margin-right: 30px;
+    color:#066306!important;
+    border-bottom: 2px solid transparent;
+}
+
+.mynav a:hover {
+    border-bottom: 2px solid #066306;
+}
+
+.active a {
+    border-bottom: 2px solid #fefe23;
+}
+
+.hactive a {
+    border-bottom: 2px solid #fefe23;
+}
+.mrt a {
+    background: #066306;
+    color: #fff !important;
+    border-radius: 50px;
+    padding: 10px 25px !important;
+    box-shadow: 3px, 3px, 5px, #777;
+    width: 120px;
+    text-align: center;
+    
+}
+
+.mrt a:hover {
+    background: #fefe23;
+    box-shadow: none; 
+    border-bottom: 2px solid transparent;
+    color: #066306 !important;
+   
+}
+
+.navbar-brand:hover {
+    border-bottom: 2px solid transparent !important;
+    }
+
+
+/*Media quarry*/
+    @media only screen and (max-width: 1140px) {
+    .navbar-brand {
+    margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .mrt a {
+    margin-top:10px;
+    margin-bottom:10px;
+    }
+}
+
+
+/* Page Header */
+
+#phdr {
+    background-image: linear-gradient(#066306, #fefe23);
+    margin-top: 103px;
+}
+
+#phdr .row {
+    margin: 0;
+}
+
+.h2w {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 50px 0; 
+}
+
+.bread {
+    color:#fff;
+    padding-top: 60px;
+}
+.bread a {
+    color:#fff;
+    text-decoration:none;
+}
+
+
+
+/*Slider section
+.bd-example{
+ margin-top: -100px;
+}
+*/
+.carousel-caption {
+    margin-bottom: 70%;
+    padding: 50px 100px;
+    width:50%;
+}
+
+.carousel-caption h5{
+    font-size:60px;
+    text-transform:uppercase;
+    color: #fefe23;
+}
+
+.carousel-caption p{
+    font-size:20px;
+    
+}
+
+.drk:after{
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:#000;
+    opacity:0.5;
+}
+
+
+@media only screen and (max-width: 1600px) {
+    .carousel-caption {
+    margin-bottom: 35%;
+    width: 50%;
+}
+}
+
+@media only screen and (max-width: 1300px) {
+    .carousel-caption {
+    margin-bottom: 25%;
+}
+    .carousel-caption h5{
+    font-size:30px;
+}
+
+.carousel-caption p{
+    font-size:16px;
+}
+}
+
+@media only screen and (max-width: 960px) {
+    .carousel-caption {
+    margin-bottom: 25%;
+}
+}
+@media only screen and (max-width: 700px) {
+    .carousel-caption .btn {
+        display:none;
+    } 
+    .carousel-caption {
+    margin-bottom: 25%;
+    padding:25px 0px;
+}
+     .carousel-caption h5{
+    font-size:20px;
+}
+
+.carousel-caption p{
+    font-size:12px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+    .carousel-caption {
+    margin-bottom: 0%;
+}        
+}
+
+
+/* Buttons */
+
+.btn-success {
+    background: #066306;
+    border-color:transparent !important;
+    color: #fff !important;
+    border-radius: 50px;
+    padding: 10px 25px !important;
+    width: 150px;
+    text-align: center;
+    margin:10px 15px;
+}
+
+.btn-success:hover {
+    background: #fefe23;
+    
+}
+
+.btn-success:focus {
+    background: #066306 !important;
+    box-shadow: none;
+}
+
+/* Footer */
+
+footer {
+    background:#222;
+    padding:30px;
+}
+
+.copy {
+    padding-top: 30px;
+}
+
+.smed i {
+    color: #066306;
+    font-size: 40px;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.smed i:hover {
+    color: #fefe23;
+}
+
+/* Team Section */
+
+#team {
+    background-image:linear-gradient(#066306, #fefe23);
+}
+
+.tm {
+    background: #fff;
+    padding: 30px 20px;
+    box-shadow: 5px 5px 10px #333;
+}
+
+.tm i {
+    color: #066306;
+    font-size: 50px;
+    padding: 5px;
+}
+
+.tm i:hover {
+    color: #fefe23;
+}
+
+/* Gallery */
+
+.pic {
+    padding:10px;
+}
+
+/* Blue Section */
+
+.blu {
+    background: #066306;
+}
+
+.h3w {
+    color:#fff;
+}
+
+.atx {
+    padding:25px;}
+  
+/* Pricing Tables */
+
+#price {
+   background-image:linear-gradient(#066306, #fefe23); 
+}
+
+.card {
+   background-image:linear-gradient(#fefe23, #066306);
+   border:2px solid #fff;
+   box-shadow:5px 5px 10px #222;
+}
+
+.pbody hr {
+    border-top: 1px solid #fff;
+    width: 100px;
+}
+
+.cardbtn{
+    background: #fefe23;
+    color: #066306 !important;
+}
+
+.cardbtn:hover {
+    background: #066306;
+    color: #fefe23 !important;
+     box-shadow: none; 
+}
+
+.cardbtn:focus {
+    background: #fefe23 !important;
+    box-shadow: none;
+}
+
+.ptitle h4 {
+    font-size: 40px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.pprice h3 {
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+    
+.pprice span {        
+    font-size: 14px;
+}
+
+.popular {
+    background:#066306;
+    padding: 20px; 
+}
+
+.mcard {
+    margin-top:-50px;
+}
+
+.prtabs {
+    padding-top: 50px;
+}
+
+.card .btn {
+    margin:auto !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .mcard {
+    margin:0px;
+}
+
+    .card {
+        margin:10px;
+    }
+}
+
+/* Services */
+
+.serv {
+    padding:25px;
+}
+
+.srv i {
+    font-size: 40px;
+    color: #066306;
+    float: left;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+
+/* Blurb */
+
+#blurb {
+    background-image:linear-gradient(#066306, #abab18);
+}
+
+.blb i {
+    font-size: 60px;
+    padding: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+ 
+.blb {
+    padding: 25px;
+}
+
+.blp {
+    min-height:125px;
+}
+.mrt2:hover {
+    background: #fefe23;
+    box-shadow: none; 
+    color: #066306 !important;}
+    
+/* Features */
+
+#features {
+    background-image:url(img/paralax-image.png);
+    background-size:cover;
+    background-attachment:fixed;
+    min-height: 500px;
+}
+
+.fbtn {
+    padding-top: 12%;
+}
+
+#flist {
+    background-image:linear-gradient(#066306, #abab18);
+}
+
+.media img {
+    max-width: 150px;
+}
+
+/* Accordion */
+
+.btn-link {
+    color: #fff;
+    font-size: 20px;
+}
+
+.btn-link:focus, .btn-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-link i {
+    font-size: 26px;
+    margin-right:10px;
+}
+
+/* Pre Footer */
+
+#pfooter {
+    background:#066306;
+}
+
+.pft {
+    border-bottom: 1px solid #fff;
+    padding-top: 20px;
+}
+
+.pft a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Address */
+
+.pft i {
+    margin-right: 10px;
+    color: #fefe23;
+}
+
+.pft .btn {
+    float: right;
+    margin-top: -25px;
+    text-transform: none;
+}
+
+.bc {
+    background: #fefe23 !important;
+    color: #066306 !important;
+}
+
+/* Contact */
+
+#chero {
+    background-image:url(img/imgconta.png);
+    background-size:cover;
+    background-attachment:fixed;
+    Min-height:500px;
+   opacity:0.9;
+}
+
+#cont {
+    background-image:linear-gradient(#abab18, #066306);
+}
+
+.cad i {
+    color: #066306;
+}
+
+.cpft i{
+    color: #fefe23 !important;
+}
+
+.rbtn {
+    float:right;
+}
+
+.bcon {
+    background: #fefe23 !important;
+    color: #066306 !important;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 991px) {
+    .bd-example {
+        padding-top: 100px;
+    }
+    .trn {
+        background: #fff;
+    }
+    .pft .btn {
+    margin-top: -25px !important;
+    }
+    .tm {
+        margin-bottom: 25px;
+    }
+    .srv2 {
+        margin-top: -30px;
+    }
+    .blb .btn {
+        margin: auto !important;
+    }
+
+ @media only screen and (max-width: 320px) {
+    .missionbird img {
+
+    max-width: 290px;
+    }
+    }
+@media only screen and (max-width: 360px) {
+    .missionbird img {
+
+    max-width: 290px;
+    }
+    }
+
+@media only screen and (max-width: 375px) {
+    .missionbird img {
+
+    max-width: 290px;
+    }
+    }
+    
+@media only screen and (max-width: 620px) {
+    .missionbird img {
+
+    max-width: 400px;
+    }
+    }
+    
+     @media only screen and (max-width: 768px) {
+    .missionbird img {
+
+    max-width: 350px;
+    }
+    }
+    
+    @media only screen and (max-width: 768px) {
+    .gal img {
+
+    max-width: 110px;
+        
+    }
+    }
+    
+     @media only screen and (max-width: 768px) {
+    .tm img {
+
+    max-width: 100px;
+    }
+    }
+    
+     @media only screen and (max-width: 768px) {
+    .oga h4 {
+    font-size: 16px !important;
+    }
+    }
+    
+    @media only screen and (max-width: 360px) {
+    .missionbird img {
+
+    max-width: 290px;
+    }
+    }
+    
+    @media only screen and (max-width: 375px) {
+    .missionbird img {
+
+    max-width: 280px;
+    }
+    }
+    
+     @media only screen and (max-width: 360px) {
+         .pic{
+             margin: auto; 
+    }
+    }
+    
+    @media only screen and (max-width: 375px) {
+         .pic{
+             margin: auto; 
+    }     
+    }
+    
+    @media only screen and (max-width: 768px) {
+         .pic{
+             margin: auto; 
+    }
+    }
+    
+     
